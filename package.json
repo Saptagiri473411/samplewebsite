@@ -1,0 +1,14 @@
+{
+  "name": "samplewebsite",
+  "version": "1.0.0",
+  "description": "Static business website (HTML/CSS/JS)",
+  "private": true,
+  "scripts": {
+    "start": "npx http-server -c-1 -p 8000",
+    "preview": "npx http-server -c-1 -p 8000",
+    "lint:html": "npx html-validator-cli --file=index.html || true"
+  },
+  "author": "Saptagiri473411",
+  "license": "MIT",
+  "devDependencies": {}
+}
