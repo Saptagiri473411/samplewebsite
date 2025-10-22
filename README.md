@@ -20,9 +20,11 @@ How to use / edit
 Quick preview (PowerShell):
 
 ```powershell
-# From this project folder:
-# Start a quick local server (Python must be installed)
-python -m http.server 8000; Start-Process "http://localhost:8000"
+# From this project folder (Node.js and npm installed):
+# Install a tiny static server the first time (optional)
+npx http-server -c-1 -p 8000
+# Open the site in your browser
+Start-Process "http://localhost:8000"
 ```
 
 Notes & next steps
